@@ -1,1 +1,1 @@
-# tech-battle
+## Tech Battle
