@@ -25,7 +25,7 @@ http://localhost:3000
 ```
 
 ### Using Acebook
-1. Follow this link to the deployed version of Acebook:
+1. Follow this link to the deployed version of Tech Battle:
 [Tech Battle](https://tech-battle.herokuapp.com/)
 
 ### Technologies
