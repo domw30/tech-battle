@@ -1,5 +1,47 @@
-## Tech Battle
+<h1 align="center">Tech Battle</h1>
 
+[![Build Status](https://travis-ci.com/domw30/tech-battle.svg?branch=master)](https://travis-ci.com/domw30/tech-battle)
+
+### Installation
+First, clone this repository: 
+```
+$ git clone git@github.com:domw30/tech-battle.git
+```
+Once cloned, change into the tech-battle directory and run the commands below:
+```
+bundle install
+```
+To ensure it works run the rspec tests:
+```
+$ rspec
+```
+To start the server:
+```
+rackup -p 3000
+```
+Visit localhost:3000 page in your browser to use the application:
+```
+http://localhost:3000
+```
+
+### Using Acebook
+1. Follow this link to the deployed version of Acebook:
+[Tech Battle](https://tech-battle.herokuapp.com/)
+
+### Technologies
+The project used the following technologies/software:
+* Ruby
+* Rubocop
+* RSpec (testing)
+* Capybara (testing)
+* Sinatra
+* Selenium Webdriver
+* Travis CI
+* Heroku CD
+* CSS
+* HTML
+
+### Approach
 ```
 As two Players,
 So we can play a personalised game of Battle,
@@ -73,3 +115,8 @@ As a Player,
 So I can enjoy my game of Battle,
 I want a sexy user interface
 ```
+
+### Improvements / Status
+
+### Acknowledgements
+Dominic White | Makers Academy
