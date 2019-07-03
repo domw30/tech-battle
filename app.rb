@@ -1,15 +1,9 @@
-require "sinatra"
+require 'sinatra/base'
 
-set :session_secret, 'super secret'
+class Battle < Sinatra::Base
+  get '/' do
+    'Hello Battle!'
+  end
 
-get '/' do
-  "Hello World"
-end
-
-get '/secret' do
-  "Tech Battle Commence"
-end
-
-get '/battle' do
-  "time to fight"
+  run! if app_file == $0
 end
