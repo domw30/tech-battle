@@ -10,3 +10,4 @@ gem "shotgun"
 gem 'simplecov'
 gem 'simplecov-console'
 gem "sinatra"
+gem "travis"
