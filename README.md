@@ -9,7 +9,7 @@ $ git clone git@github.com:domw30/tech-battle.git
 ```
 Once cloned, change into the tech-battle directory and run the commands below:
 ```
-bundle install
+$ bundle install
 ```
 To ensure it works run the rspec tests:
 ```
@@ -17,7 +17,7 @@ $ rspec
 ```
 To start the server:
 ```
-rackup -p 3000
+$ rackup -p 3000
 ```
 Visit localhost:3000 page in your browser to use the application:
 ```
