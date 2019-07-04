@@ -3,13 +3,13 @@
 [![Build Status](https://travis-ci.com/domw30/tech-battle.svg?branch=master)](https://travis-ci.com/domw30/tech-battle)
 
 ### Installation
-First, clone this repository: 
+First, clone this repository:
 ```
 $ git clone git@github.com:domw30/tech-battle.git
 ```
 Once cloned, change into the tech-battle directory and run the commands below:
 ```
-bundle install
+$ bundle install
 ```
 To ensure it works run the rspec tests:
 ```
@@ -17,14 +17,14 @@ $ rspec
 ```
 To start the server:
 ```
-rackup -p 3000
+$ rackup -p 3000
 ```
 Visit localhost:3000 page in your browser to use the application:
 ```
 http://localhost:3000
 ```
 
-### Using Acebook
+### Using Tech Battle
 1. Follow this link to the deployed version of Tech Battle:
 [Tech Battle](https://tech-battle.herokuapp.com/)
 
