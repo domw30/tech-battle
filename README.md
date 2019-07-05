@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/domw30/tech-battle.svg?branch=master)](https://travis-ci.com/domw30/tech-battle)
 
+[Project Wall](https://github.com/domw30/tech-battle/projects/1) - Card Wall used to organise tasks and prioritise work.
+
 ### Installation
 First, clone this repository:
 ```
@@ -42,6 +44,8 @@ The project used the following technologies/software:
 * HTML
 
 ### Approach
+Developer / Git Workflow - Branch, PR, Merge, CI, CD.
+Agile Process - User Story, Domain Model, Project Wall.
 ```
 As two Players,
 So we can play a personalised game of Battle,
