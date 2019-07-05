@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/domw30/tech-battle.svg?branch=master)](https://travis-ci.com/domw30/tech-battle)
 
+[Project Wall](https://github.com/domw30/tech-battle/projects/1) - Card Wall used to organise tasks and prioritise work.
+
 ### Installation
 First, clone this repository:
 ```
