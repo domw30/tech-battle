@@ -44,6 +44,8 @@ The project used the following technologies/software:
 * HTML
 
 ### Approach
+Developer / Git Workflow - Branch, PR, Merge, CI, CD.
+Agile Process - User Story, Domain Model, Project Wall.
 ```
 As two Players,
 So we can play a personalised game of Battle,
