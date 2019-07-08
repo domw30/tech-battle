@@ -15,4 +15,11 @@ describe Player do
       expect(user1.hit_points).to eq described_class::DEFAULT_HP
     end
   end
+
+  describe '#attack' do
+    it 'damages the player' do
+      expect(user2).to receive(:receive_damage)
+      user1.attack(user2)
+    end
+  end
 end
