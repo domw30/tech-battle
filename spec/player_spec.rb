@@ -10,9 +10,9 @@ describe Player do
     end
   end
 
-  describe '#hit_points' do
+  describe '#hp' do
     it 'returns hit points' do
-      expect(user1.hit_points).to eq described_class::DEFAULT_HP
+      expect(user1.hp).to eq described_class::DEFAULT_HP
     end
   end
 
@@ -22,10 +22,10 @@ describe Player do
       user1.attack(user2)
     end
   end
-  
+
   describe '#receive_damage' do
     it 'reduces the player hit points' do
-      expect { user1.receive_damage }.to change { user1.hit_points }.by(-10)
+      expect { user1.receive_damage }.to change { user1.hp }.by(-10)
     end
   end
 end
