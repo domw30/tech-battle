@@ -21,4 +21,17 @@ describe Game do
       game.attack(player_2)
     end
   end
+
+  describe '#player_move' do
+    it 'begins the game as player 1s move' do
+      expect(game.player_move).to eq player_1
+    end
+  end
+
+  describe '#switch_player' do
+    it 'switches to the opponent for their move' do
+      game.switch_player
+      expect(game.player_move).to eq player_2
+    end
+  end
 end

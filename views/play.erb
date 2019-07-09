@@ -14,6 +14,9 @@
       <%= @game.player_2.name %> HP: <%= @game.player_2.hp %>
     </div>
     <div>
+      <%= @game.player_move.name %>s Move
+    </div>
+    <div>
       <form action="/attack">
         <input type="submit" value="Attack">
       </form>
