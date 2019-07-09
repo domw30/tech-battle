@@ -18,4 +18,12 @@ feature 'Attack Player' do
     expect(page).not_to have_content 'User2 HP: 100'
     expect(page).to have_content 'User2 HP: 90'
   end
+
+  scenario 'reduce player 1 HP by 10' do
+    log_in_to_play
+    attack_and_confirm
+    attack_and_confirm
+    expect(page).not_to have_content 'User1 HP: 100'
+    expect(page).to have_content 'User1 HP: 90'
+  end
 end

@@ -31,10 +31,8 @@ class Game
     @game
   end
 
-  private
-
   def other_player_of(the_player)
     @players.select { |player| player != the_player }.first
   end
-  
+
 end
