@@ -7,8 +7,7 @@ feature 'Switch Player Move' do
 
     scenario 'after player 1 takes their move' do
       log_in_to_play
-      click_button 'Attack'
-      click_button 'Ok'
+      attack_and_confirm
       expect(page).not_to have_content 'User1s Move'
       expect(page).to have_content 'User2s Move'
     end
@@ -16,10 +15,8 @@ feature 'Switch Player Move' do
 
   scenario 'after player 2 takes their move' do
     log_in_to_play
-    click_button 'Attack'
-    click_button 'Ok'
-    click_button 'Attack'
-    click_button 'Ok'
+    attack_and_confirm
+    attack_and_confirm
     expect(page).not_to have_content 'User2s Move'
     expect(page).to have_content 'User1s Move'
   end
