@@ -89,7 +89,7 @@ GuardClause:
 IdenticalConditionalBranches:
   Enabled: true
 InverseMethods:
-  Enabled: true
+  Enabled: false
 LeadingCommentSpace:
   Enabled: true
 NegatedIf:
