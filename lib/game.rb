@@ -44,7 +44,7 @@ class Game
   attr_reader :players
 
   def losing_players
-    players.select { |player| player.hp <= 0 }
+    players.select { |player| player.hitpoints <= 0 }
   end
 
   def players_who_are_not(the_player)

@@ -1,9 +1,9 @@
 describe Game do
   subject(:game) { described_class.new(player_1, player_2) }
   subject(:finished_game) { described_class.new(dead_player, player_2) }
-  let(:player_1) { double :player, hp: 100 }
-  let(:player_2) { double :player, hp: 100 }
-  let(:dead_player) { double :player, hp: 0 }
+  let(:player_1) { double :player, hitpoints: 100 }
+  let(:player_2) { double :player, hitpoints: 100 }
+  let(:dead_player) { double :player, hitpoints: 0 }
 
   describe '#player_1' do
     it 'retrieves the first player' do

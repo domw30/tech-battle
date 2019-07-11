@@ -3,7 +3,6 @@ require './lib/player'
 require './lib/game'
 require './lib/attack'
 
-
 class Battle < Sinatra::Base
 
   before do

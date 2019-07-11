@@ -1,10 +1,18 @@
-
-<% if @game.player_move == @game.player_1 %>
-<%= @game.player_1.name %> attacked <%= @game.player_2.name %>
-<% else %>
-<%= @game.player_2.name %> attacked <%= @game.player_1.name %>
-<% end %>
-
-<form action="/switch-players" method="post">
-  <input type="submit" value="Ok">
-</form>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TechBattle</title>
+    <h1>Battle Arena</h1>
+  </head>
+  <body>
+    <% if @game.player_move == @game.player_1 %>
+    <%= @game.player_1.name %> attacked <%= @game.player_2.name %>
+    <% else %>
+    <%= @game.player_2.name %> attacked <%= @game.player_1.name %>
+    <% end %>
+    <form action="/switch-players" method="post">
+      <input type="submit" value="Ok">
+    </form>
+  </body>
+</html>
