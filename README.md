@@ -4,7 +4,7 @@
 
 [Project Wall](https://github.com/domw30/tech-battle/projects/1) - Card Wall used to organise tasks and prioritise work.
 
-### Installation
+### Installation 
 First, clone this repository:
 ```
 $ git clone git@github.com:domw30/tech-battle.git
